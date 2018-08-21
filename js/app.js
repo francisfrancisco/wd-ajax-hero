@@ -57,4 +57,15 @@
   };
 
   // ADD YOUR CODE HERE
+  let search = document.getElementById('search');
+  document.querySelector("button").addEventListener("click", (e) =>{
+    e.preventDefault();
+    if(search.value === ""){
+      alert("please enter movie title")
+    }else{
+      
+    }
+    search.value = ""
+
+  })
 })();
